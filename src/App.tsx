@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Output />
+      <Output border={border} />
       <TextValue border={border} />
       <Slider
         border={border}
