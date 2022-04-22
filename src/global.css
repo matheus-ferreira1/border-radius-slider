@@ -45,15 +45,16 @@ body {
 }
 
 .App {
-   outline: 1px solid var(--cyan-500);
-   width: auto;
    text-align: center;
-   padding: 10px;
 }
 
 .App h1,
 .App input {
    margin-top: 15px;
+}
+
+.App input {
+   width: 100%;
 }
 
 .output {

@@ -1,5 +1,3 @@
-import React from 'react'
-
 type BorderProps = {
    border: number;
    setBorder: any;

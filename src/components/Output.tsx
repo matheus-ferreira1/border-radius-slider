@@ -1,5 +1,3 @@
-import React from 'react'
-
 type BorderProps = {
    border: number;
 }
@@ -9,8 +7,6 @@ export default function Output(props: BorderProps) {
    let text = border + '%'
 
    return (
-      <div className='output' style={{ borderRadius: text }}>
-         Output
-      </div>
+      <div className='output' style={{ borderRadius: text }}></div>
    )
 }
