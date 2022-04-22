@@ -3,7 +3,8 @@ import './global.css'
 function App() {
   return (
     <div className="App">
-      <h1>teste</h1>
+      <div className="output"></div>
+      <h1>porcentagem</h1>
     </div>
   );
 }
