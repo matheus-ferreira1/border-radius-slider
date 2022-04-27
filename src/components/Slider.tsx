@@ -1,10 +1,13 @@
+import { ChangeEvent } from 'react';
+
 type BorderProps = {
    border: number;
    setBorder: React.Dispatch<React.SetStateAction<number>>;
+   handleChange: any;
 }
 
 export const Slider = (props: BorderProps) => {
-   const { border, setBorder } = props
+   const { border, setBorder, handleChange } = props
 
    return (
       <div>
@@ -15,7 +18,8 @@ export const Slider = (props: BorderProps) => {
             min={0}
             max={50}
             value={border}
-            onChange={(event) => setBorder(Number(event.target.value))}
+            // onChange={(event) => setBorder(Number(event.target.value))}
+            onChange={(event) => handleChange(event)}
          />
       </div>
    )
